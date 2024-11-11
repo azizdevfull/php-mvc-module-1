@@ -12,5 +12,5 @@ CREATE TABLE IF NOT EXISTS posts (
 
 3. servernin ishlating
 ```bash
-php -S localhost:8000 -t
+php -S localhost:8000 -t public
 ```
