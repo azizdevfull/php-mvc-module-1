@@ -14,6 +14,6 @@ $router->post('/posts/store', 'PostController@store');
 $router->get('/posts/show', 'PostController@show');
 $router->get('/posts/edit', 'PostController@edit');
 $router->post('/posts/update', 'PostController@update');
-$router->post('/posts/delete', 'PostController@destroy');
+$router->get('/posts/delete', 'PostController@destroy');
 
 $router->dispatch();

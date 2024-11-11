@@ -13,10 +13,7 @@
             <li>
                 <a href="/posts/show?id=<?= $post['id'] ?>"><?= $post['title'] ?></a>
                 <a href="/posts/edit?id=<?= $post['id'] ?>">Edit</a>
-                <form action="/posts/delete" method="POST">
-                    <input type="hidden" name="id" value="<?= $post['id'] ?>">
-                    <button type="submit">Delete</button>
-                </form>
+                <a href="/posts/delete?id=<?= $post['id'] ?>">Delete</a>
             </li>
         <?php endforeach; ?>
     </ul>
