@@ -3,7 +3,7 @@
 require_once '../core/Router.php';
 require_once '../core/Controller.php';
 require_once '../config/database.php';
-require_once '../app/controllers/PostController.php';
+require_once '../app/Controllers/PostController.php';
 
 // Routingni sozlash
 $router = new Router();

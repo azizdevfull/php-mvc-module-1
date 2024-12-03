@@ -21,7 +21,7 @@ class Router
 
         if (isset($this->routes[$method][$url])) {
             list($controller, $action) = explode('@', $this->routes[$method][$url]);
-            require_once "../app/controllers/$controller.php";
+            require_once "../app/Controllers/$controller.php";
             $controller = new $controller;
             $controller->$action();
         } else {

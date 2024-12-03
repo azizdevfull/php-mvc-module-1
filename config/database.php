@@ -4,9 +4,9 @@ class Database
 {
     protected $host = "127.0.0.1";
     protected $dbname = "mvc_tuto";
-    protected $dbport = "8889";
+    protected $dbport = "3306";
     protected $username = "root";
-    protected $password = "root";
+    protected $password = "";
 
     public $conn;
 
