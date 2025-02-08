@@ -50,7 +50,6 @@ class PostController extends Controller
         $id = $_GET['id'];
         $title = $_POST['title'];
         $content = $_POST['content'];
-        var_dump($id, $title, $content);
         $this->postModel->update($id, $title, $content);
         header('Location: /');
     }
